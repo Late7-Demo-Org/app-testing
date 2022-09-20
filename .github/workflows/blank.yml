@@ -28,4 +28,7 @@ jobs:
         id: birthday
         with:
           date: '1991-08-17'
+        
+      - name: Plot
+        run: echo "$age"
 
